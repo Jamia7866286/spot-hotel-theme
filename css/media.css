@@ -1,0 +1,623 @@
+@media (min-width:240px) and (max-width:767px) {
+    .hotel-banner-bg {
+        padding: 90px 0 20px;
+    }
+    .hotel-search-form ul {
+        width: 100%;
+        padding: 0;
+    }
+    .hotel-search-form ul li,
+    .hotel-search-form ul li:first-child {
+        width: 100%;
+        padding: 15px;
+        border-bottom: 1px solid #e3e3e3;
+        border-right: 0 none;
+    }
+    .hotel-search-form ul li i {
+        top: 26px;
+        right: 26px;
+    }
+    .hotel-search-form p.spt-from-submit {
+        width: 100%;
+    }
+    .hotel-search-form p.spt-from-submit button {
+        border-radius: 0;
+    }
+    .top-cities {
+        margin-bottom: 10px;
+    }
+    .hotel-review-tab ul {
+        width: 100%;
+    }
+    .hotel-review-tab ul li {
+        width: 150px;
+    }
+    .client-list ul li {
+        display: block;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e3e3e3;
+    }
+    .get-app {
+        padding: 40px 0;
+    }
+    .spott-app-img,
+    .get-app-form form ul span.or {
+        display: none;
+    }
+    .app-container {
+        padding: 0;
+    }
+    .subscribe-form {
+        width: 100%;
+    }
+    .jb-box {
+        margin-bottom: 10px;
+    }
+    .hotel-banner-bg .banner-text h1 {
+        font-size: 32px;
+    }
+    ul.nav.navbar-nav.nav-left {
+        margin-left: 0px;
+        border-left: 0;
+    }
+    ul.nav.navbar-nav.nav-left li {
+        margin-left: 0;
+    }
+    .navbar-header img {
+        margin-left: 10px;
+    }
+    .nav-left.navbar-nav {
+        margin: 7.5px 0;
+    }
+    ul.nav.navbar-nav.navbar-right li ul.dropdown-menu li a {
+        color: #fff;
+    }
+    .about-us {
+        padding: 60px 0 5px;
+    }
+    .heading h1 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .about-us .heading p {
+        margin-bottom: 10px;
+        font-size: 10px;
+        padding: 0 15px;
+    }
+    .our-img .team-content h1 {
+        font-size: 14px;
+    }
+    .our-img .team-content .content-writer {
+        font-size: 14px;
+    }
+    .our-img .team-content p:last-child {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .our-img {
+        margin-bottom: 10px;
+    }
+    .top-destination,
+    .just-booked,
+    .why-us,
+    .customer-review,
+    .our-clients,
+    .subscribe-us {
+        padding: 20px 0 20px 0;
+    }
+    .our-team {
+        padding: 20px 0;
+    }
+    .footer-bottom p {
+        text-align: center;
+    }
+    .contact-us .heading {
+        margin-top: 15px;
+    }
+    .contact-us .heading p:first-child {
+        font-size: 14px;
+    }
+    .contact-us .heading p:last-child {
+        font-size: 15px;
+    }
+    .contact-us {
+        padding: 50px 0 20px;
+    }
+    .email-contact .email-box i {
+        font-size: 14px;
+    }
+    .email-contact {
+        text-align: center;
+        padding: 0 0 7px;
+    }
+    .email-contact h1 {
+        font-size: 15px;
+    }
+    .email-contact p {
+        font-size: 12px;
+    }
+    .email-contact .email-box {
+        position: relative;
+        top: 15px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .email-contact .email-box {
+        height: 40px;
+        width: 40px;
+    }
+    .more-hotel-list {
+        margin-top: 10px;
+    }
+    .inner-hotel-select-form .form-group button.btn-default {
+        margin-top: 5px;
+    }
+    .hotel-items p {
+        margin-bottom: 10px;
+    }
+    .hotel-contant {
+        padding: 10px 10px 20px;
+        margin-bottom: 0;
+    }
+    .hotel-book-list.pull-right {
+        float: left !important;
+    }
+    .inner-hotel-search-form {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .hotel-name h1 {
+        font-size: 18px;
+    }
+    .hotel-name {
+        left: 15px;
+    }
+    .hotel-name span.sub-name {
+        font-size: 12px;
+    }
+    .lpadding.filtur-padding {
+        padding-left: 15px;
+    }
+    .lpadding.hotel-padding {
+        padding-left: 15px;
+    }
+    .guest-lpadding {
+        padding-left: 15px;
+    }
+    .footer-payment {
+        display: initial;
+    }
+   
+    .guest-detail .panel-footer ul li:first-child {
+        border-right: 0px solid #7f8da0;
+        padding-right: 0;
+    }
+    .guest-detail .panel-footer ul li:nth-child(2) {
+        padding: 10px 0;
+    }
+    .payment-june ul {
+        display: initial;
+    }
+    .payment-june .june-time {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .payment-june .june-time:after,
+    .payment-june .moon-payment:before,
+    .payment-june .moon-payment:after {
+        display: none;
+    }
+    .payment-june .moon-payment {
+        margin: 20px auto 30px;
+    }
+    .payment-june .june-time p:first-child,
+    .payment-june .june-time p:last-child {
+        font-size: 12px;
+        text-align: center;
+    }
+    .payment-june .june-time p:nth-child(2) {
+        font-size: 16px;
+        text-align: center;
+    }
+    .hotel-adult {
+        float: left;
+        padding-top: 10px;
+    }
+    .mon-june .address p {
+        padding-top: 10px;
+    }
+    .guest-detail {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .payment-container {
+        padding: 75px 0 0;
+    }
+    .continue-btn {
+        margin-bottom: 20px;
+    }
+    .guest-comment {
+        padding: 0;
+    }
+    .payment-guest .top .payment-box{
+    	padding: 5px;
+    	top:-5px;
+    }
+    .top .payment-box i{
+    	font-size: 14px;
+    }
+.payment-box:before {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid #7f8da0;
+    top: 26px;
+    left: 9px;
+}
+.payment-guest .bottom li:before {
+    height: 10px;
+    width: 10px;
+    top: -3px;
+}
+.payment-guest .text li a {
+    margin-left: 16px;
+    font-size: 10px;
+}
+.inner-page-data {
+    padding: 20px 0 20px;
+}
+
+.thank-you-page-inner h2 {
+    font-size: 25px;
+    width: 100%;
+    margin: 10px auto;
+}
+.thank-you-page-inner h3 {
+    font-size: 14px;
+}
+.thank-you-page-inner ul li {
+    font-size: 14px;
+}
+.thanku-page-main .thank-you-page-inner {
+    padding: 0;
+}
+}
+
+
+/*end 767 max-width*/
+
+@media (max-width: 991px) and (min-width:768px) {
+    .about-us {
+        padding: 70px 0 0;
+    }
+    .heading h1 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .our-clients {
+        padding: 20px 0 5px 0;
+    }
+    .subscribe-us {
+        padding: 20px 0 20px 0;
+    }
+    .about-us .heading p {
+        margin-bottom: 15px;
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .our-team {
+        padding: 20px 0;
+    }
+    .our-img .team-content h1 {
+        font-size: 12px;
+    }
+    .our-img .team-content .content-writer {
+        font-size: 12px;
+    }
+    .our-img .team-content p:last-child {
+        font-size: 9px;
+        padding: 0 5px;
+    }
+    .contact-us {
+        padding: 50px 0 20px;
+    }
+    .contact-us .heading {
+        margin-top: 15px;
+    }
+    .contact-us .heading p:first-child {
+        font-size: 14px;
+    }
+    .contact-us .heading p:last-child {
+        font-size: 16px;
+    }
+    .email-contact {
+        padding: 10px 50px;
+        margin-top: 10px;
+    }
+    .email-contact h1 {
+        font-size: 16px;
+    }
+    .email-contact p {
+        font-size: 12px;
+    }
+    .email-contact .email-box {
+        height: 40px;
+        width: 40px;
+        left: -21px;
+        top: 22px;
+    }
+    .email-contact .email-box i {
+        font-size: 14px;
+    }
+    .hotel-book-list ul li .hotel-price h2 {
+        font-size: 16px;
+    }
+    .hotel-book-list ul li {
+        padding-right: 10px;
+    }
+    .hotel-book-list ul li i.location {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .hotel-book-list ul li a.btn-book-hotel {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+    .hotel-detail-name h2 {
+        font-size: 14px;
+    }
+    .hotel-detail-banner {
+        margin-top: 5px;
+    }
+    .more-hotel-list {
+        margin-top: 5px;
+    }
+    .inner-hotel-select-form .form-group button.btn-default {
+        margin-top: 10px;
+    }
+    .hotel-contant {
+        padding: 10px 10px 20px;
+        margin-bottom: 10px;
+    }
+    .hotel-search-form ul li:first-child,
+    .hotel-search-form ul li {
+        width: 100%;
+    }
+    .hotel-search-form ul li,
+    .hotel-search-form ul li:first-child {
+        width: 100%;
+        padding: 15px;
+        border-bottom: 1px solid #e3e3e3;
+        border-right: 0 none;
+    }
+    .hotel-search-form ul {
+        width: 100%;
+        padding: 0;
+    }
+    .hotel-search-form ul li i {
+        top: 26px;
+        right: 26px;
+    }
+    .inner-hotel-search-form {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .hotel-search-form p.spt-from-submit {
+        width: 100%;
+    }
+    .hotel-search-form p.spt-from-submit button {
+        border-radius: 0;
+    }
+    .hotel-name {
+        left: 55px;
+    }
+    .hotel-name h1 {
+        font-size: 20px;
+    }
+    .hotel-name span.sub-name {
+        font-size: 12px;
+    }
+    .sidebar .filter-content {
+        padding: 5px 0 5px 5px;
+    }
+    .radio-btn label {
+        font-weight: small;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .radio-btn input[type="radio"]+.radio-label:before {
+        width: 15px;
+        height: 15px;
+        top: -1px;
+    }
+    .inner-content-heading h3 {
+        font-size: 12px;
+    }
+    .list-toggle .cntr input[type="checkbox"]+label {
+        padding-left: 8px;
+        font-size: 12px;
+    }
+    .cntr input[type="checkbox"]+label::before {
+        width: 14px;
+        height: 14px;
+    }
+    .list-toggle span.count {
+        top: 5px;
+        font-size: 10px;
+    }
+    .cntr input[type="checkbox"]:checked+label::before {
+        width: 7px;
+    }
+    .payment-june .june-time{
+	width: 135px;
+}
+.guest-detail{
+	margin-top: 15px;
+}
+.payment-june .june-time p:first-child{
+	font-size: 10px;
+}
+.payment-june .june-time p:nth-child(2){
+	font-size: 20px;
+}
+.payment-june .june-time {
+    padding: 10px 0px 19px 19px;
+}
+.payment-june .june-time:after{
+	top: 38px;
+}
+.mon-june .address p{
+	padding-top: 15px;
+}
+.guest-detail .panel-footer ul li:nth-child(2){
+	padding-left: 5px;
+}
+.guest-detail .panel-footer ul li:first-child{
+	border: none;
+}
+.footer-payment > .col-sm-4 {
+    padding-left: 0;
+}
+.expire-form-group {
+    display: block !important;
+}
+.expire-form-group > select {
+    margin-bottom: 15px;
+}
+.tabcontent .expire .calender2 {
+    left: 97%;
+}
+.inner-page-data {
+    padding: 20px 0 20px;
+}
+
+.thank-you-page-inner h2 {
+    font-size: 25px;
+    width: 100%;
+    margin: 10px auto;
+}
+.thank-you-page-inner h3 {
+    font-size: 14px;
+}
+.thank-you-page-inner ul li {
+    font-size: 14px;
+}
+.thanku-page-main .thank-you-page-inner {
+    padding: 0;
+}
+}
+
+
+/*end 991 max-width*/
+
+@media (max-width: 1199px) and (min-width:992px) {
+    .about-us {
+        padding: 80px 0 20px;
+    }
+    .heading h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .about-us .heading p {
+        margin-bottom: 15px;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .our-img .team-content h1 {
+        font-size: 14px;
+    }
+    .our-img .team-content p {
+        font-size: 14px;
+    }
+    .our-img .team-content p:last-child {
+        font-size: 12px;
+    }
+    .our-clients {
+        padding: 20px 0 20px 0;
+    }
+    .subscribe-us {
+        padding: 20px 0 20px 0;
+    }
+    .contact-us {
+        padding: 50px 0 20px;
+    }
+    .contact-us .heading {
+        margin-top: 15px;
+    }
+    .contact-us .heading p:first-child {
+        font-size: 16px;
+    }
+    .contact-us .heading p:last-child {
+        font-size: 20px;
+    }
+    .email-contact {
+        padding: 14px 40px;
+        margin-top: 10px;
+    }
+    .email-contact h1 {
+        font-size: 20px;
+    }
+    .email-contact p {
+        font-size: 14px;
+    }
+    .email-contact .email-box {
+        height: 40px;
+        width: 40px;
+        top: 35px;
+        left: -21px;
+    }
+    .email-contact .call-box {
+        left: 272px;
+    }
+    .email-contact .email-box i {
+        font-size: 18px;
+    }
+    .expire-form-group {
+    display: block !important;
+}
+.expire-form-group > select {
+    margin-bottom: 15px;
+}
+.tabcontent .expire .calender2 {
+    left: 98%;
+}
+.payment-june .moon-payment:before {
+    width: 51px;
+    left: -51px;
+}
+.payment-june .moon-payment:after {
+    width: 51px;
+    right: -51px;
+}
+.guest-detail {
+    margin-top: 20px;
+}
+.guest-detail .panel-footer ul li:nth-child(2) {
+    padding-left: 5px;
+}
+.guest-detail .panel-footer ul li:first-child {
+    border-right: none;
+}
+.booking-btn {
+    float: right;
+}
+
+}
+
+
+/*end 1199 max-width*/
+
+@media (min-width:1200px) {
+	  .expire-form-group {
+    display: block !important;
+}
+.expire-form-group > select {
+    margin-bottom: 15px;
+}
+
+.booking-btn {
+    float: right;
+}
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SPOTT | Hotel</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/hotel-theme.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+	<header class="navbar navbar-blue navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a href="#">
+				<img src="img/spott-logo.png" alt="SPOTT" title="SPOTT"/>
+			  </a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav nav-left">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hotel <span class="fa fa-angle-down"></span> </a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Restaurants</a></li>
+					<li><a href="#">Hotel</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Help</a></li>
+				
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="" data-toggle="modal" data-target="#Loginpop">Login</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#SignupPop">Signup</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</header>
+	<section class="search-result-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="total-result">
+						<p><span>Price for 2 guests</span> | <span>1 Room</span> | <span>6 Nights</span> | <span>15-21.05.2015</span></p>
+						<h3>Select 1 to 5 Hotels(55 Available)
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="inner-hotel-search-form clearfix">
+						<div class="hotel-search-form">
+							<form>
+								
+								<ul class="spott-hotel-form">
+									<li class="dt-form-field">
+										<input type="text" class="form-control" placeholder="Enter City, Hotel Name">
+										<i class="fa fa-angle-down"></i>
+									</li>
+									<li class="dt-form-field">
+										<input type="text" class="form-control" placeholder="Check In">
+										<i class="fa fa-calendar"></i>
+									</li>
+									<li class="dt-form-field">
+										<input type="text" class="form-control" placeholder="Check Out">
+										<i class="fa fa-calendar"></i>
+									</li>
+									<li class="dt-form-field">
+										<select class="form-control">
+											<option>0 Room</option>
+											<option>1 Room</option>
+											<option>2 Room</option>
+											<option>3 Room</option>
+										</select>
+										<i class="fa fa-angle-down"></i>
+									</li>
+									<li class="dt-form-field">
+										<span class="">0 Adult, 0 Child</span>
+										<i class="fa fa-angle-down"></i>
+									</li>
+								</ul>
+								
+								<p class="spt-from-submit">
+									<button type="submit">Search</button>
+								</p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<div class="sidebar">
+						<div class="filter-heading">
+							<h2>Sort By</h2>
+						</div>
+						
+						<div class="filter-content">
+							<div class="sort-by-list">
+								<div class="radio-btn">
+									<input id="radio-1" name="radio" type="radio">
+									<label for="radio-1" class="radio-label">Price (Low to High)</label>
+								</div>
+								<div class="radio-btn">
+									<input id="radio-2" name="radio" type="radio">
+									<label for="radio-2" class="radio-label">Price (High to Low)</label>
+								</div>
+								<div class="radio-btn">
+									<input id="radio-3" name="radio" type="radio">
+									<label for="radio-3" class="radio-label">Star Rating(0 to 5)</label>
+								</div>
+								<div class="radio-btn">
+									<input id="radio-4" name="radio" type="radio">
+									<label for="radio-4" class="radio-label">Star Rating(5 to 0)</label>
+								</div>
+								<div class="radio-btn">
+									<input id="radio-5" name="radio" type="radio">
+									<label for="radio-5" class="radio-label">Distance</label>
+								</div>
+								<div class="radio-btn">
+									<input id="radio-6" name="radio" type="radio">
+									<label for="radio-6" class="radio-label">Number of Reviews</label>
+								</div>
+							</div>
+						</div>
+						
+						<div class="filter-heading">
+							<h2>Filters</h2>
+						</div>
+						
+						<div class="filter-content">
+							<div class="inner-content-heading">
+								<h3>Star Rating</h3>
+								<span><i class="fa fa-chevron-down"></i></span>
+							</div>
+							<div class="list-toggle">
+								<ul class="list-unstyled">
+									<li>
+										<div class="cntr">
+											<input id="box-1" type="checkbox">
+											<label for="box-1">1 Star</label>
+										</div>
+										<span class="count">(20)</span>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+						
+						<div class="filter-content">
+							<div class="inner-content-heading">
+								<h3>Price Range</h3>
+								<span><i class="fa fa-chevron-down"></i></span>
+							</div>
+							<div class="list-toggle">
+								<ul class="list-unstyled">
+									<li>
+										<div class="cntr">
+											<input id="box-2" type="checkbox">
+											<label for="box-2">CHF 522 - CHF 315</label>
+										</div>
+										<span class="count">(20)</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="filter-content">
+							<div class="inner-content-heading">
+								<h3>Hotel facilities</h3>
+								<span><i class="fa fa-chevron-down"></i></span>
+							</div>
+							<div class="list-toggle">
+								<ul class="list-unstyled">
+									<li>
+										<div class="cntr">
+											<input id="box-3" type="checkbox">
+											<label for="box-3">Disabled Facilities</label>
+										</div>
+										<span class="count">(20)</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="filter-content">
+							<div class="inner-content-heading">
+								<h3>Trip Advisor Review</h3>
+								<span><i class="fa fa-chevron-down"></i></span>
+							</div>
+							<div class="list-toggle">
+								
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			
+				<div class="col-md-9 col-sm-9 col-xs-12 lpadding filtur-padding">
+					<div class="filter-result">
+						
+						<div class="filter-result-box">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3 col-sm-3 col-xs-12">
+											<div class="hotel-img"></div>
+										</div>
+										<div class="col-md-9 col-sm-9 col-xs-12 lpadding">
+											<div class="hotel-name">
+												<h1><a href="#">InterContinental Geneva</a></h1>
+												<span class="sub-name">2.2 miles from Geneva</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel-footer">
+									<div class="hotel-detail-footer-list">
+										<div class="row">
+											<div class="col-md-9 col-sm-9 col-xs-12">
+												<ul class="list-inline">
+													<li>Total for 6 nights:<span class="tpc">$135.00</span></li>
+													<li>Price per nights:<span class="ppn">$522.00</span></li>
+												</ul>
+											</div>
+											<div class="col-md-3 col-sm-3 col-xs-12 lpadding hotel-padding">
+												<div class="hotel-book-btn">
+													<a href="#" class="btn btn-book">Select</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="filter-result-box">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3 col-sm-3 col-xs-12">
+											<div class="hotel-img">
+													<span class="hotel-rating">
+														<i class="fa fa-star active"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</span>
+											</div>
+										</div>
+										<div class="col-md-9 col-sm-9 col-xs-12 lpadding">
+											<div class="hotel-name">
+												<h1><a href="#">InterContinental Geneva</a></h1>
+												<span class="sub-name">2.2 miles from Geneva</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel-footer">
+									<div class="hotel-detail-footer-list">
+										<div class="row">
+											<div class="col-md-9 col-sm-9 col-xs-12">
+												<ul class="list-inline">
+													<li>Total for 6 nights:<span class="tpc">$3135.00</span></li>
+													<li>Price per nights:<span class="ppn">$522.00</span></li>
+												</ul>
+											</div>
+											<div class="col-md-3 col-sm-3 col-xs-12 lpadding hotel-padding">
+												<div class="hotel-book-btn">
+													<a href="#" class="btn btn-book">Select</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			
+			
+			</div>
+			
+			
+		</div>
+	</section>
+	<section class="subscribe-us">
+		<div class="container">
+			<div class="row">
+				<div class="heading text-center">
+					<h1>Sign up, get saving!</h1>
+					<p>Newsletter subscribers save more with today's best prices and deals</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div class="subscribe-form">
+					<form>
+						<div class = "input-group">
+							<input type = "text" class = "form-control">
+						   <span class = "input-group-btn">
+							<button class = "btn btn-default" type = "button">Subscribe</button>
+						   </span>
+						</div><!-- /input-group -->
+					</form>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Popular Areas</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Popular Cuisines</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Popular Restaurants</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-xs-12">
+					<div class="fw-heading">
+						<h4>Foodbox</h4>
+					</div>
+					<div class="fw-list">
+						<ul class="list-unstyled list-style">
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+							<li><a href="#">fkdfjskj</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p>© Copyright 2017 Spott is a registered trademark</p>
+					</div>
+					
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p class="text-right">
+							<a href="#" title="">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+							<a href="#" title="">Privacy Policy</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</footer>
+	
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
